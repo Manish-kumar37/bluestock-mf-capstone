@@ -1,0 +1,25 @@
+# Database files — share schema.sql instead
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Large data files (commit raw CSVs only if small)
+data/processed/*.csv
