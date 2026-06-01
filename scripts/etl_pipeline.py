@@ -120,7 +120,7 @@ def validate_amfi_codes(fund_master: pd.DataFrame, nav_history: pd.DataFrame) ->
 
     # Save quality report
     report_path = PROCESSED / "data_quality_summary.txt"
-    with open(report_path, "w") as f:
+    with open(report_path, "w", encoding="utf-8") as f:
         f.write(f"Data Quality Summary — {datetime.now()}\n")
         f.write(summary)
     print(f"\n  Saved quality summary → {report_path}")
