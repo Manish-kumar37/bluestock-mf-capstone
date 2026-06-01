@@ -1,0 +1,9 @@
+Data Quality Summary — 2026-06-01 19:30:37.118350
+
+  DATA QUALITY SUMMARY
+  ────────────────────────────────────────
+  Fund master codes    : 6
+  NAV history codes    : 6
+  Codes in master, missing from NAV : 0
+  Extra codes in NAV (not in master): 0
+  Match rate           : 100.0%
