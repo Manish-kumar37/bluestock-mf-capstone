@@ -23,3 +23,7 @@ Thumbs.db
 
 # Large data files (commit raw CSVs only if small)
 data/processed/*.csv
+
+*.db
+__pycache__/
+.ipynb_checkpoints/
