@@ -22,7 +22,7 @@ Thumbs.db
 *.env
 
 # Large data files (commit raw CSVs only if small)
-data/processed/*.csv
+#data/processed/*.csv
 
 *.db
 __pycache__/
