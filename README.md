@@ -53,9 +53,9 @@ bluestock_mf_capstone/
 ## Progress
 
 - [x] Day 1 — Data Ingestion & ETL
-- [ ] Day 2 — Data Cleaning & SQLite
-- [ ] Day 3 — EDA
-- [ ] Day 4 — Performance Metrics
+- [x] Day 2 — Data Cleaning & SQLite
+- [x] Day 3 — EDA
+- [x] Day 4 — Performance Metrics
 - [ ] Day 5 — Dashboard
 - [ ] Day 6 — Advanced Analytics
 - [ ] Day 7 — Final Report
@@ -65,3 +65,17 @@ bluestock_mf_capstone/
 - `.db` files are in `.gitignore`. Use `sql/schema.sql` to recreate the database.
 - Always `ffill()` NAV after reindexing to handle weekends/holidays.
 - Use 252 trading days (not 365) for annualisation.
+
+## Day 1 – Data Ingestion
+
+Implemented using:
+- scripts/data_ingestion.py
+- scripts/live_nav_fetch.py
+
+## Day 2 – Data Cleaning & Database Loading
+
+Implemented using:
+- scripts/clean_data.py
+- scripts/load_to_sqlite.py
+- sql/schema.sql
+- sql/queries.sql
