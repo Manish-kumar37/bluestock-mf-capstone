@@ -79,3 +79,21 @@ Implemented using:
 - scripts/load_to_sqlite.py
 - sql/schema.sql
 - sql/queries.sql
+
+## Power BI Dashboard
+
+### Pages
+1. Industry Overview
+2. Fund Performance
+3. Investor Analytics
+4. SIP & Market Trends
+5. Fund Detail (Drill Through)
+
+### Features
+- KPI Cards
+- Risk vs Return Analysis
+- Benchmark Comparison
+- Investor Demographics
+- SIP Trend Analysis
+- Heatmap Visualization
+- Drill Through Navigation
