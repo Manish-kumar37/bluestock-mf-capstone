@@ -66,21 +66,54 @@ bluestock_mf_capstone/
 - Always `ffill()` NAV after reindexing to handle weekends/holidays.
 - Use 252 trading days (not 365) for annualisation.
 
-## Day 1 – Data Ingestion
+## Project Progress
+
+### Day 1 – Data Profiling
+
+* Explored all mutual fund datasets.
+* Checked schema, data types, missing values, and duplicates.
+* Created dataset inventory and quality assessment.
 
 Implemented using:
 - scripts/data_ingestion.py
 - scripts/live_nav_fetch.py
+### Day 2 – Data Cleaning
 
-## Day 2 – Data Cleaning & Database Loading
+* Standardized column names and formats.
+* Removed duplicates and handled data inconsistencies.
+* Generated cleaned datasets for analysis.
 
 Implemented using:
 - scripts/clean_data.py
 - scripts/load_to_sqlite.py
 - sql/schema.sql
-- sql/queries.sql
+- sql/queries.sql\
 
-## Power BI Dashboard
+
+### Day 3 – Feature Engineering
+
+* Calculated CAGR, Alpha, Beta, Sharpe Ratio, and Max Drawdown.
+* Created fund ranking and scorecard metrics.
+* Prepared analytical datasets for reporting.
+
+### Day 4 – ETL & Live Data Integration
+
+* Built ETL pipeline using Python.
+* Integrated live NAV data from MFAPI.
+* Performed AMFI code validation and data quality checks.
+
+### Day 5 – Power BI Dashboard
+
+* Imported cleaned datasets into Power BI.
+* Created relationships using `amfi_code`.
+* Built 5 dashboard pages:
+
+  * Industry Overview
+  * Fund Performance
+  * Investor Analytics
+  * SIP & Market Trends
+  * Fund Detail (Drill-through)
+* Added KPI cards, slicers, benchmark comparisons, and interactive visualizations.
 
 ### Pages
 1. Industry Overview
