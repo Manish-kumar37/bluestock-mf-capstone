@@ -56,8 +56,8 @@ bluestock_mf_capstone/
 - [x] Day 2 — Data Cleaning & SQLite
 - [x] Day 3 — EDA
 - [x] Day 4 — Performance Metrics
-- [ ] Day 5 — Dashboard
-- [ ] Day 6 — Advanced Analytics
+- [x] Day 5 — Dashboard
+- [x] Day 6 — Advanced Analytics
 - [ ] Day 7 — Final Report
 
 ## Notes
