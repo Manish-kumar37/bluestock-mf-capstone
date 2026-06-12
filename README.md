@@ -266,6 +266,11 @@ python scripts/recommender.py
 * ETL Pipeline
 * GitHub Repository
 
+## Run Complete Pipeline
+
+```bash
+python scripts/run_pipeline.py
+
 ## Author
 
 Manish Kumar
